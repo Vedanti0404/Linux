@@ -1,0 +1,75 @@
+1) ls : command is a basic Linux shell command that lists information about files and directories in the current working directory. It can be used in any directory or anywhere on the command line. 
+
+2)pwd : print working directory. It prints the directory name in which you are working.
+
+3) cd /  : / is root directory
+   ls
+
+4) cd : change directory
+
+5) cd .. : to go back from the directory
+
+6) mkdir: for making new directory
+
+7) touch: to make a blank text file
+
+8) mv: move from one dir to another
+
+9) cp: to copy
+
+10) clear: to clean the terminal
+
+11) Users in LINUX:
+
+1. Regular Users
+Role: Everyday users who use the system for general tasks like browsing, creating files, or running applications.
+Tasks:
+a.Access and modify their own files and directories.
+b.Run applications and scripts.
+c.Access files and resources they have permission to.
+d.Can’t change system-wide settings or access files owned by other users unless given permission.
+
+2. Root User (Superuser)
+Role: The highest level of access on the system. This user has complete control over the entire system.
+Tasks:
+a.Install or remove software.
+b.Modify system files and settings.
+c.Manage all user accounts and permissions.
+d.Access and modify any file or directory on the system.
+e.Perform system maintenance tasks like backups or system updates.
+
+3. Service Users (System Users)
+Role: Special users created to run specific system services or daemons (background processes). They usually don’t log in directly.
+Tasks:
+a.Run specific background processes or services, like web servers or database servers.
+b.Typically have limited permissions restricted to what’s necessary for the service they run.
+c.Help keep the system secure by isolating services from regular users and the root user.
+
+
+12) apt: We can install software with the help of apt.
+
+13)sudo apt-get update: used for updating list of software that are installed.
+
+14) sudo apt upgrade: this will actually upgrade the list of the software. so we have to write upgrade . else the software wont get updated.
+
+15) ls -a: command in Linux is used to list all files and directories in the current directory, including hidden ones. 
+
+16) ls -r
+
+17) history: gives the history of all the commands used
+
+18) echo : prints whatever you write after echo
+
+19) printf: prints whatever you write after printf
+
+20)top : command in Linux displays real-time information about running processes and system resource usage.
+
+21) ps -a : command in Linux shows a list of all running processes for all users, excluding those not associated with a terminal.
+
+22) kill (Process id): command in Linux is used to terminate processes by sending them signals, typically to stop them.
+
+23) vim: text editor can help to change the content of file
+
+24) sudo su: changing regular user to root or super user
+
+
